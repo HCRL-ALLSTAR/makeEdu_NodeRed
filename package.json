@@ -2,7 +2,12 @@
     "name": "MakeEdu_NodeRed",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-line-notify": "2.0.0",
+        "node-red-contrib-mongodb3": "2.0.1",
+        "node-red-contrib-mqtt-broker": "0.2.4",
+        "node-red-dashboard": "2.19.3"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_DESKTOP-IU4I4K9.json",
